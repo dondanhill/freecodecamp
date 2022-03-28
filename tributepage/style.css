@@ -1,0 +1,72 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  margin: 2rem auto 8rem;
+}
+
+#title {
+  font-size: 2.4rem;
+  padding: 25px;
+  background-color: #eee;
+}
+
+#tagline {
+  background-color: #eee;
+  padding-bottom: 25px;
+  font-style: italic;
+}
+
+#image {
+  display: block;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+#img-caption {
+  padding-block: 1rem;
+}
+
+#tribute-info {
+  margin-top: 2rem;
+  padding: 3rem;
+  background-color: #eee;
+}
+
+ul {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+li {
+  text-align: left;
+  line-height: 1.5rem;
+  margin: 1.8rem auto;
+}
+
+li span {
+  font-weight: 700;
+}
+
+#quote {
+  display: inline-block;
+  max-width: 600px;
+  text-align: center;
+  font-style: italic;
+  margin: 3rem;
+}
+#quote figcaption {
+  font-style: normal;
+  margin-top: 1rem;
+}
+
+#tribute-link {
+  display: block;
+}
